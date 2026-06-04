@@ -2,12 +2,17 @@ import { Link } from "react-router-dom";
 
 function AboutUs() {
   return (
-    <div>
-      <h1>Paradise Nursery</h1>
+    <div className="about-us-container">
+      <h2>Paradise Nursery</h2>
 
       <p>
-        Paradise Nursery offers beautiful indoor and outdoor
-        plants for your home and office.
+        Paradise Nursery provides beautiful indoor
+        and outdoor plants for homes and offices.
+      </p>
+
+      <p>
+        Our mission is to make gardening simple,
+        affordable, and enjoyable for everyone.
       </p>
 
       <Link to="/plants">

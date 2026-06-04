@@ -7,9 +7,25 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<AboutUs />} />
-        <Route path="/plants" element={<ProductList />} />
-        <Route path="/cart" element={<CartItem />} />
+        <Route
+          path="/"
+          element={
+            <div>
+              <h1>Welcome to Paradise Nursery</h1>
+              <AboutUs />
+            </div>
+          }
+        />
+
+        <Route
+          path="/plants"
+          element={<ProductList />}
+        />
+
+        <Route
+          path="/cart"
+          element={<CartItem />}
+        />
       </Routes>
     </BrowserRouter>
   );
