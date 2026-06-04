@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 20px;
+
+  background-image: url(
+    "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
+  );
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+nav {
+  padding: 15px;
+  background: white;
+}
